@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+*{
+    --pale-silver: #C7BEB6ff;
+--beaver: #AF8B76ff;
+--liver-chestnut: #91664Eff;
+--liver-chestnut-2: #967059ff;
+--cafe-au-lait: #A87759ff;
+}
+
+body {
+    background-color: var(--cafe-au-lait);
+    font-family: "Rowdies"
+}
+
+#splash-image{
+    width: 500px;
+}
+
+#info{
+    color: var(--pale-silver);
+}
