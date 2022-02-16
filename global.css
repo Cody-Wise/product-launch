@@ -10,13 +10,51 @@
 
 body {
     background-color: var(--cafe-au-lait);
-    font-family: "Rowdies"
+    font-family: "Rowdies", cursive;
 }
 
 #splash-image{
-    width: 40vw;
+    width: 500px;
+}
+
+#splash-image2{
+    width: 500px;
+}
+
+#splash-image3{
+    width: 500px;
+}
+
+#splash-image4{
+    width: 500px;
 }
 
 #info{
     color: var(--pale-silver);
+}
+
+.hide{
+    display: none;
+}
+
+@media (min-width: 700px) {
+    body {
+display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "col1 col2";
+    }
+
+    img {
+grid-area: col2;
+    }
+
+    #info {
+grid-area: col1;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+font-size: 2rem;
+    }
 }
